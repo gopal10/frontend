@@ -1,0 +1,19 @@
+h1
+{
+    color: red;
+    font-family: sans-serif;
+}
+img
+{
+    margin: 100px;
+    width: 300px;
+   
+}
+
+div{
+
+    text-align: center;
+    background-color: rgb(192, 218, 77);
+ 
+    width: auto;
+}

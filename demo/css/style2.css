@@ -1,0 +1,116 @@
+.navbar {
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    font-family: 'Oswald', sans-serif;
+    box-shadow: 1px 2px 1px #4285f4;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover{
+    float: left;
+    display: block;
+    color: #4285f4;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: white;
+    font-size:17px;
+  }
+
+  
+  
+  nav li{
+    display: inline;
+  }
+
+  body
+{
+  background:linear-gradient(100deg,#ffd970,#bdff90);
+}
+
+.cards {
+    
+    flex-wrap: wrap;
+    align-items: stretch;
+    height: 450px;
+    margin: 5px !important;
+    flex: 0 0 400px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    background-color: white;
+    margin-top: 50px;
+  } 
+  .card img {
+    max-width: 100%;
+  }
+  .card .text {
+    padding: 0 20px 20px;
+    background-color: white;
+  }
+  .card .text > button {
+    background:linear-gradient(40deg,#ff6ec4,#7873f5);
+    border: 0;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    float: left;
+    
+    }
+
+    .container_12
+    {
+        margin: 50px;
+    }
+    header h1{
+        padding-top: 10px;
+        margin-left: 50px;
+    }
+
+    ul{
+        margin: 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    footer
+    {
+        background-color: black;
+       overflow: hidden;
+        color:white;
+       
+    }
+
+    footer li{
+        font-size: 18px;
+        list-style: none;
+       
+
+    }
+    footer li:nth-child(1)
+    {
+        font-size: 23px;
+        font-family: 'Oswald', sans-serif;
+        color: #4285f4;
+      
+    }
+    .container_12
+    {
+        width: 1000px !important;
+    }

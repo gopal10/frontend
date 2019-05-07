@@ -1,0 +1,66 @@
+.wrap
+{
+   min-width: 600px;
+    width: 80%;
+    margin: auto;
+    background-color: green;
+    overflow: hidden;
+}
+.content
+{
+    background-color: red;
+    width: 80%;
+    float: left;
+}
+.content, aside{
+    height: 600px;
+}
+aside
+{
+    background-color: brown;
+    float: left;
+    width: 20%;
+   
+}
+aside ul{
+    padding-left: 10px;
+    list-style: none;
+}
+
+footer
+{
+    clear: both;
+}
+
+ul a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: black;
+}
+
+ul a:hover
+{
+    text-decoration: underline;
+    font-size: 20px;
+    color: red;
+
+}
+form li{
+   list-style: none;
+   padding-bottom: 20px;
+}
+
+label
+{
+    display: block;
+}
+h1{
+    font-size: 120px;
+    text-align: center;
+    margin-top: 50px;
+    font-family: cursive;
+    letter-spacing: 5px;
+    color: #666;
+    text-transform: lowercase;
+    text-shadow: 0px 2px 0px white;
+}

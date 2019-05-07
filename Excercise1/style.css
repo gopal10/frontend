@@ -1,0 +1,14 @@
+body
+{
+    background-color: #e3e3e3;
+    font-family: sans-serif;
+    width: 500px;
+    margin: auto;
+}
+
+blockquote
+{
+    border: solid #fff 1px;
+ margin-left: 0%;
+    text-align: center;
+}

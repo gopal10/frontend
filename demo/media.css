@@ -1,0 +1,56 @@
+img
+{
+    width: 100%;
+}
+header
+{
+    width: 960px;
+    margin: 0px auto;
+    
+}
+.first
+{
+    width: 600px;
+    background-color: red;
+   float: left;
+}
+.second
+{
+    width: 360px;
+    background-color: yellow;
+    float: left;
+}
+
+@media screen and (max-width:959px)
+{
+    header{
+        width: 100%;
+    }
+
+    .first
+    {
+        width: 75%;
+    }
+    .second
+    {
+        width: 25%;
+    }
+
+}
+
+
+@media screen and (max-width:640px)
+{
+    header{
+        width: 100%;
+    }
+
+    .first
+    {
+        width: 100%;
+    }
+    .second
+    {
+        width: 100%;
+    }
+}

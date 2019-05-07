@@ -1,0 +1,36 @@
+.container_12
+{
+    background-color: aqua;
+
+}
+
+nav li{
+    display: inline;
+    margin-left: 0px;
+   
+}
+aside{
+    background-color: green;
+}
+
+.primary
+{
+    background-color:grey;
+}
+header
+{
+    background-color: yellow;
+}
+
+.main{
+    margin:30px 0;
+}
+
+nav
+{
+    background-color:orangered;
+    margin-left: 0px;
+}
+a{
+    text-decoration: none;
+}
